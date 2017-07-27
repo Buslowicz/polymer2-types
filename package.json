@@ -1,0 +1,27 @@
+{
+  "name": "polymer2-types",
+  "version": "2.0.0",
+  "description": "Community version of typings for Polymer V2",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "npm run lint && tsc",
+    "lint": "tslint *.ts"
+  },
+  "author": {
+    "name": "Justin Fagnani",
+    "url": "https://github.com/justinfagnani"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Busłowicz",
+      "email": "draccoz@gmail.com",
+      "url": "https://github.com/draccoz"
+    }
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "dtslint": "^0.1.2",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.2"
+  }
+}
